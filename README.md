@@ -2,7 +2,7 @@
 This exercise is designed to improve your understanding of functions, function arguments and return statements.
 
 ## Learning Objectives
-* Explain how functions, function arguments and returns statement work
+* Explain how functions, function arguments and return statement work
 
 ## Questions
 Go through each of the questions below, one by one, using the following process:
