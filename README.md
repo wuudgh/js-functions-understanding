@@ -2,7 +2,7 @@
 This exercise is designed to improve your understanding of functions, function arguments and return statements.
 
 ## Learning Objectives
-* Explain how functions, function arguments and return statement work
+* Explain how functions, function arguments and `return` statements work
 
 ## Questions
 Go through each of the questions below, one by one, using the following process:
@@ -15,7 +15,7 @@ Go through each of the questions below, one by one, using the following process:
 
 Keep your written notes in an MD file in this repository so your instructors can read it afterwards. Commit and push regularly. 
 
-At the end of all questions, in a new MD file, write in a few paragraphs an explanation in your own words of:
+At the end of all questions, in a new MD file describe in your own words:
 
 * What a function is
 * How function arguments work
@@ -173,7 +173,7 @@ const num1 = 10
 const num2 = 1
 const num3 = 20
 
-myFunction(1, 1, 1)
+const result = myFunction(1, 1, 1)
 ```
 
 ### Q12
