@@ -4,16 +4,18 @@ This exercise is designed to improve your understanding of functions, function a
 ## Learning Objectives
 * Explain how functions, function arguments and `return` statements work
 
-## Questions
+## Instructions
 Go through each of the questions below, one by one, using the following process:
 
 1. *Write down* a description of what you believe the function(s) are doing and what you think the answer to the question is. Do not skip the writing down step.
+
 2. Run the code by typing (don't copy and paste, *type* the code for this exercise) it in to a js file and running the file with `node`. Name the file based on the question name (i.e `q1.js`, `q2.js`, etc.). Add `console.log` statements to observe values where required.
 3. Did you answer correctly? If not, try to understand why not. What did you misunderstand about the code? **This step is crucial to this exercise. If the answer is not what you expected, do not move on until you understand why**. You can experiment with the code adding `console.log` messages to help you see what is happening. You can ask another member of the Cohort, you can look at previous exercises, online references, and of course you can ask the instructors using the support channel.
 4. If necessary update your written answer (keep the original!) with your updated understanding.
-5. Move on to the next question.
+5. Commit and push your updates
+6. Move on to the next question.
 
-Keep your written notes in an MD file in this repository so your instructors can read it afterwards. Commit and push regularly. 
+Look at the `example-question.md` file for an example of what your writeup should look like (you don't need to include the actual code in your own write up, it's just provided in the example for clarity).
 
 At the end of all questions, in a new MD file describe in your own words:
 
@@ -22,6 +24,18 @@ At the end of all questions, in a new MD file describe in your own words:
 * How return statements work
 
 Share this final write up with your instructor.
+
+## Learning Cycle
+This process is an example of applying a *learning cycle*. Remember this diagram from the beginning of the course?
+
+![Learning Cycle](learning-cycle.png)
+
+Be conscious of this process as you go through the exercise. If the code for a particular question does something you didn't expect, ask yourself why. Modify the code as necessary to help understand it's behavior, copy the code to a new file, add console.log messages to give you visibility. This process is the key to developing your own understanding of how specific concepts work. Keep this diagram in mind as you go through the exercise.
+
+## Instructor Demo
+Your instructor will demonstrate this process for the first question.
+
+## Questions
 
 ### Q1
 What is the value of `result` after calling this function? Why?
@@ -319,4 +333,41 @@ function myFunction(num1, num2) {
 
 const result = myFunction(10, 20)
 myFunction(100, 2)
+```
+
+### Q22
+What will be the value of `result` when this code runs? Why?
+
+```javascript
+function myFunction(num1, num2) {
+  let result = num1+num2
+  return result
+}
+
+let result = 0
+myFunction(100, 2)
+```
+
+### Q23
+What will be the value of `result` when this code runs? Why?
+
+```javascript
+function myFunction(num1, num2) {
+  result = num1+num2
+}
+
+let result = 0
+myFunction(100, 2)
+```
+
+### Q24
+What will be the value of `result` when this code runs? Why?
+
+```javascript
+function myFunction(num1, num2) {
+  const result = num1+num2
+  return 100
+}
+
+const result = myFunction(5, 2)
 ```
