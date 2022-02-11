@@ -371,3 +371,23 @@ function myFunction(num1, num2) {
 
 const result = myFunction(5, 2)
 ```
+
+### Q25
+What will be the printed out by the console log statements when this code runs? Why?
+```javascript
+function myFunction(a) {
+  a = 10
+  let b = 20
+  c = 30
+}
+
+let a = 1
+let b = 2
+let c = 3
+
+myFunction(a)
+
+console.log("a:", a)
+console.log("b:", b)
+console.log("c:", c)
+```
