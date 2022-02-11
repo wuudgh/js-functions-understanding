@@ -376,18 +376,16 @@ const result = myFunction(5, 2)
 What will be the printed out by the console log statements when this code runs? Why?
 ```javascript
 function myFunction(a) {
-  a = 10
   let b = 20
-  c = 30
+  
+  console.log("a:", a)
+  console.log("b:", b)
+  console.log("c:", c)
 }
 
 let a = 1
 let b = 2
 let c = 3
 
-myFunction(a)
-
-console.log("a:", a)
-console.log("b:", b)
-console.log("c:", c)
+myFunction(100)
 ```
